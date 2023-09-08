@@ -99,7 +99,7 @@ seata官方仅支持MySQL、Oracle、Postgresql，不支持SQL Server，所以�
          #secret-key:
      store:
        # support: file 、 db 、 redis
-       mode: db
+       type: db
        db:
          datasource: druid
          db-type: mysql
